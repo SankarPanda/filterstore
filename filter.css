@@ -1,0 +1,56 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+.container{
+    display: flex;
+    padding: 50px;
+}
+.leftMenu{
+    flex: 1;
+}
+.search{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid gray;
+}
+h1{
+    font-size: 30px;
+    font-weight: 200;
+    color: #555;
+}
+.cats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cat{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.content{
+    flex: 4;
+}
+.products{
+display: flex;
+gap: 10px;
+flex-wrap: wrap;
+}
+.product{
+width: 350px;
+display: flex;
+flex-direction: column;
+gap: 2px;
+align-items: center;
+margin: 5px;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.pro-name{
+    font-weight: 200;
+}
